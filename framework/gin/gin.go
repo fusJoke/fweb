@@ -6,6 +6,7 @@ package gin
 
 import (
 	"fmt"
+	"github.com/fusjoke/fweb/framework"
 	"html/template"
 	"net"
 	"net/http"
@@ -133,6 +134,7 @@ type Engine struct {
 	trees            methodTrees
 	maxParams        uint16
 	trustedCIDRs     []*net.IPNet
+	container 		 framework.Container
 }
 
 var _ IRouter = &Engine{}
@@ -168,6 +170,7 @@ func New() *Engine {
 		trees:                  make(methodTrees, 0, 9),
 		delims:                 render.Delims{Left: "{{", Right: "}}"},
 		secureJSONPrefix:       "while(1);",
+		container:              framework.NewHadeContainer(),
 	}
 	engine.RouterGroup.engine = engine
 	engine.pool.New = func() interface{} {
@@ -186,7 +189,7 @@ func Default() *Engine {
 
 func (engine *Engine) allocateContext() *Context {
 	v := make(Params, 0, engine.maxParams)
-	return &Context{engine: engine, params: &v}
+	return &Context{engine: engine, params: &v, container: engine.container}
 }
 
 // Delims sets template left and right delims and returns a Engine instance.

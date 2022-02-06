@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf132209-8561-4629-b0b0-9d71e226b95c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/framework/container.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/contract/app.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider/app/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider/app/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider/demo/contract.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider/demo/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider/demo/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/util/console.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/util/exec.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/util/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/util/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/util/zip.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/gin/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/gin/gin.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/gin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/gin/hade_context.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/hade_context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/middleware/cost.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/middleware/cost.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/middleware/recovery.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/middleware/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/middleware/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/middleware/timeout.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/middleware/timeout.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/subject_controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_controller.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/local/Cellar/go@1.15/1.15.15/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="24jXbCgEpXHFPeDjXdKDAYAzlN3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>

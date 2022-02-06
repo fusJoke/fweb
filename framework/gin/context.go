@@ -7,6 +7,7 @@ package gin
 import (
 	"errors"
 	"fmt"
+	"github.com/fusjoke/fweb/framework"
 	"io"
 	"io/ioutil"
 	"math"
@@ -19,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gin-contrib/sse"
 	"github.com/fusjoke/fweb/framework/gin/binding"
 	"github.com/fusjoke/fweb/framework/gin/render"
+	"github.com/gin-contrib/sse"
 )
 
 // Content-Type MIME of the most common data formats.
@@ -78,6 +79,8 @@ type Context struct {
 	// SameSite allows a server to define a cookie attribute making it impossible for
 	// the browser to send this cookie along with cross-site requests.
 	sameSite http.SameSite
+
+	container framework.Container
 }
 
 /************************************/
